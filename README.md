@@ -1,7 +1,3 @@
-Here’s your **fixed README** with properly bolded headers and formatted code sections:  
-
----
-
 # **Found404**  
 
 ## **Movie & TV Show Recommendation System**  
