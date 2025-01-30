@@ -30,3 +30,39 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone [https://github.com/yourusername/repository-name.git](https://github.com/HarishDvs/Found404.git)
    cd repository-name
+
+
+Install Dependencies: Create a virtual environment
+
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+Install the required packages:
+
+pip install -r requirements.txt
+
+Set Up API Key:
+
+Sign up for SerpAPI and obtain your API key.
+Create a file named api_key.py in the root directory and add the following line:
+
+API_KEY = 'your_api_key_here'
+
+
+Run the Application:
+
+python app.py
+
+
+Usage
+Enter a movie or TV show title in the input field.
+Click the submit button to receive personalized recommendations.
+Enjoy browsing through the dynamic carousel of recommendations!
+Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Thanks to the developers of Flask, Scikit-learn, and SerpAPI for their amazing tools and resources!
